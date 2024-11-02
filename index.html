@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <script src="js/utilidades.js"></script>
+</head>
+
+<body>
+    <script>
+        ul = crearNodo("ul")
+        liUno = crearNodo("li")
+        liDos = crearNodo("li")
+        liTres = crearNodo("li")
+        liCuatro = crearNodo("li")
+        liCinco = crearNodo("li")
+        liSeis = crearNodo("li")
+        liSiete = crearNodo("li")
+        ejer1 = crearNodoEn("a", "ejercicio 1", "html/ejercicio1.html", "_blank")
+        ejer2 = crearNodoEn("a", "ejercicio 2", "html/ejercicio2.html", "_blank")
+        ejer3 = crearNodoEn("a", "ejercicio 3", "html/ejercicio3.html", "_blank")
+        ejer4 = crearNodoEn("a", "ejercicio 4", "html/ejercicio4.html", "_blank")
+        ejer5 = crearNodoEn("a", "ejercicio 5", "html/ejercicio5.html", "_blank")
+        ejer6 = crearNodoEn("a", "ejercicio 6", "html/ejercicio6.html", "_blank")
+        ejer7 = crearNodoEn("a", "ejercicio 7", "html/ejercicio7.html", "_blank")
+
+        adicionarNodoAContenedor(ejer1, liUno)
+        adicionarNodoAContenedor(ejer2, liDos)
+        adicionarNodoAContenedor(ejer3, liTres)
+        adicionarNodoAContenedor(ejer4, liCuatro)
+        adicionarNodoAContenedor(ejer5, liCinco)
+        adicionarNodoAContenedor(ejer6, liSeis)
+        adicionarNodoAContenedor(ejer7, liSiete)
+        adicionarNodoAContenedor(liUno, ul)
+        adicionarNodoAContenedor(liDos, ul)
+        adicionarNodoAContenedor(liTres, ul)
+        adicionarNodoAContenedor(liCuatro, ul)
+        adicionarNodoAContenedor(liCinco, ul)
+        adicionarNodoAContenedor(liSeis, ul)
+        adicionarNodoAContenedor(liSiete, ul)
+
+        adicionarNodoABody(ul)
+    </script>
+
+</body>
+
+</html>
